@@ -1,0 +1,18 @@
+// footer
+
+#footer {
+  background-color: var(--color-dark-blue);
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .social-links a {
+      margin-left: 8px;
+    }
+  }
+}

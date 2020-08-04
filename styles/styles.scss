@@ -1,1 +1,11 @@
-@import "modules/general";
+//archivo de importacion
+
+//estilos generales
+@import "base/root";
+@import "base/general";
+
+//componentes
+@import "components/card";
+@import "components/header";
+@import "components/footer";
+@import "components/navbar";

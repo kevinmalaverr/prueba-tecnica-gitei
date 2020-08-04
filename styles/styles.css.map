@@ -1,9 +1,14 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX",
+    "mappings": "ACEA,AAAA,KAAK,CAAC;EACJ,YAAY,CAAA,QAAC;EACb,iBAAiB,CAAA,QAAC;EAClB,YAAY,CAAA,QAAC;EAEb,aAAa,CAAA,8BAAC;CACf;;ACRD,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AEDD,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,iBAAiB;EACnC,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAKpB;;AATD,AAME,OANK,CAML,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;CACb;;ACRH,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,sBAAsB;EACxC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAUpB;;AAfD,AAOE,OAPK,CAOL,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAK/B;;AAdH,AAWI,OAXG,CAOL,UAAU,CAIR,aAAa,CAAC,CAAC,CAAC;EACd,WAAW,EAAE,GAAG;CACjB;;ACbL,AAAA,iBAAiB,CAAC;EAChB,UAAU,EAAE,sBAAsB;CACnC",
     "sources": [
         "styles.scss",
-        "modules/_general.scss"
+        "base/_root.scss",
+        "base/_general.scss",
+        "components/_card.scss",
+        "components/_header.scss",
+        "components/_footer.scss",
+        "components/_navbar.scss"
     ],
     "names": [],
     "file": "styles.css"
