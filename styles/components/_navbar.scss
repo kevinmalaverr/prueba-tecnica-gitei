@@ -1,10 +1,54 @@
 //menu de navegación
 
 .navbar-container {
-  background: var(--color-dark-blue);
-  padding: 8px 0;
+	background: var(--color-dark-blue);
+	padding: 10px 0;
 }
 
 .navbar {
-  border-radius: 30px;
+	border-radius: 30px;
+	font-size: 14px;
+	background: #fff;
+
+	.nav-link {
+		color: var(--color-dark-blue) !important;
+	}
+}
+
+.nav-item {
+	margin: 0 8px;
+}
+
+.nav-item.active {
+	background: var(--color-dark-blue);
+	border-radius: 4px;
+	.nav-link {
+		color: #fff !important;
+	}
+}
+
+.rounded-form {
+	border-radius: 24px;
+	border: var(--border);
+	width: fit-content;
+
+	.form-control {
+		border: none;
+		background: none;
+		margin-left: 8px;
+
+		&:focus {
+			border: none;
+			box-shadow: none;
+			background: none;
+		}
+	}
+
+	.btn {
+		width: 30px;
+		height: 30px;
+		background: var(--color-dark-blue);
+		border-radius: 50%;
+		margin-right: 4px;
+	}
 }
