@@ -76,3 +76,9 @@
 .navbar-toggler-icon {
 	width: 1em !important;
 }
+
+@media screen and (max-width: 375px) {
+	.rounded-form .form-control {
+		width: 160px;
+	}
+}

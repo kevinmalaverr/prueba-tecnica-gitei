@@ -88,6 +88,7 @@ html body {
   -webkit-box-shadow: var(--shadow-card);
           box-shadow: var(--shadow-card);
   cursor: pointer;
+  opacity: 0;
   will-change: opacity;
 }
 
@@ -317,6 +318,12 @@ html body {
 
 .navbar-toggler-icon {
   width: 1em !important;
+}
+
+@media screen and (max-width: 375px) {
+  .rounded-form .form-control {
+    width: 160px;
+  }
 }
 
 .pagination {
