@@ -1,14 +1,15 @@
 //archivo de importacion
 
 //estilos generales
-@import "base/root";
-@import "base/general";
+@import 'base/root';
+@import 'base/general';
 
 //layouts
-@import "layout/layout";
+@import 'layout/layout';
 
 //componentes
-@import "components/card";
-@import "components/header";
-@import "components/footer";
-@import "components/navbar";
+@import 'components/card';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/navbar';
+@import 'components/pagination';

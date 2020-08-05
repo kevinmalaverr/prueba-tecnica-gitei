@@ -1,5 +1,4 @@
 // footer
-
 #footer {
 	background-color: var(--color-dark-blue);
 	color: #fff;
@@ -22,6 +21,7 @@
 	}
 }
 
+// media queries
 @media screen and (min-width: 576px) {
 	#footer {
 		height: 60px;
@@ -34,6 +34,10 @@
 
 			.social-links {
 				margin-top: 0;
+
+				img {
+					width: 18px;
+				}
 			}
 		}
 	}

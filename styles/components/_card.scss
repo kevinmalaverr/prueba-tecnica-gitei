@@ -1,17 +1,10 @@
 // tarjetas
-
-// hay tres tipos de tarjetas
-// 1. con imagen y descripcion
-// 2. imagen
-// 3. descripción
-
 .article-card {
 	width: 100%;
 	border: var(--border);
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
 	box-shadow: var(--shadow-card);
-
 	cursor: pointer;
 
 	h1,
@@ -19,7 +12,11 @@
 		margin: 0;
 	}
 }
+.card-content {
+	padding: 28px;
+}
 
+// tarjeta con solo imagen
 .article-card--image {
 	position: relative;
 
@@ -40,13 +37,19 @@
 	}
 }
 
-.card-content {
-	padding: 28px;
-}
-
+// componentes de las tarjetas
 .card__tags {
 	display: flex;
 	flex-wrap: wrap;
+	.tag {
+		background-color: #fafafa;
+		color: #4d4d4d;
+		border: var(--border-tag);
+		border-radius: 16px;
+		font-size: 10px;
+		padding: 2px 10px;
+		margin: 0 6px 6px 0;
+	}
 }
 
 .card__title h1 {
@@ -58,21 +61,12 @@
 	font-size: 14px;
 }
 
-.card__tags,
-.card__title {
-	margin-bottom: 12px;
-}
-
-.tag {
-	background-color: #fafafa;
-	color: #4d4d4d;
-	border: var(--border-tag);
-	border-radius: 16px;
-	font-size: 10px;
-	padding: 2px 10px;
-	margin: 0 6px 6px 0;
-}
-
 .card__type {
 	letter-spacing: 0.2em;
+}
+
+.card__tags,
+.card__type,
+.card__title {
+	margin-bottom: 12px;
 }

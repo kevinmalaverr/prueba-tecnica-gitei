@@ -99,6 +99,10 @@ html body {
   margin: 0;
 }
 
+.card-content {
+  padding: 28px;
+}
+
 .article-card--image {
   position: relative;
 }
@@ -120,16 +124,22 @@ html body {
   bottom: 20px;
 }
 
-.card-content {
-  padding: 28px;
-}
-
 .card__tags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.card__tags .tag {
+  background-color: #fafafa;
+  color: #4d4d4d;
+  border: var(--border-tag);
+  border-radius: 16px;
+  font-size: 10px;
+  padding: 2px 10px;
+  margin: 0 6px 6px 0;
 }
 
 .card__title h1 {
@@ -141,23 +151,14 @@ html body {
   font-size: 14px;
 }
 
-.card__tags,
-.card__title {
-  margin-bottom: 12px;
-}
-
-.tag {
-  background-color: #fafafa;
-  color: #4d4d4d;
-  border: var(--border-tag);
-  border-radius: 16px;
-  font-size: 10px;
-  padding: 2px 10px;
-  margin: 0 6px 6px 0;
-}
-
 .card__type {
   letter-spacing: 0.2em;
+}
+
+.card__tags,
+.card__type,
+.card__title {
+  margin-bottom: 12px;
 }
 
 #header {
@@ -233,6 +234,9 @@ html body {
   #footer .container .social-links {
     margin-top: 0;
   }
+  #footer .container .social-links img {
+    width: 18px;
+  }
 }
 
 .navbar-container {
@@ -280,6 +284,7 @@ html body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  top: 11px;
   right: 16px;
 }
 
@@ -311,5 +316,45 @@ html body {
 
 .navbar-toggler-icon {
   width: 1em !important;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination li {
+  margin: 0 8px;
+  padding: 2px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination li a {
+  color: #919bae;
+}
+
+.pagination li.active {
+  background-color: #c8cdd7;
+  border: 2px solid #919bae;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.pagination li.active a {
+  color: var(--color-dark-blue);
 }
 /*# sourceMappingURL=styles.css.map */
