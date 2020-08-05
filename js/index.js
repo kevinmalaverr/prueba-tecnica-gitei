@@ -1,4 +1,4 @@
-$(document).ready(async () => {
+$(document).ready(() => {
 	animateCards();
 	pagination();
 });
@@ -7,6 +7,8 @@ function pagination() {
 	$('#page-selection')
 		.bootpag({
 			total: 5,
+			prev: '←',
+			next: '→',
 		})
 		.on('page', function (event, num) {
 			// cargar contetenido de acuerdo a el número de pagina

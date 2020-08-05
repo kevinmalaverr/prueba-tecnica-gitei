@@ -1,6 +1,16 @@
+// paginacion
+
 .pagination {
 	display: flex;
 	justify-content: center;
+
+	// boton retroceder y avanzar
+	.prev a,
+	.next a {
+		color: var(--color-dark-blue);
+	}
+
+	// pagina
 	li {
 		margin: 0 8px;
 		padding: 2px;

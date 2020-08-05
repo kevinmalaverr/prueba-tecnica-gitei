@@ -6,6 +6,11 @@
 	border-bottom-right-radius: 16px;
 	box-shadow: var(--shadow-card);
 	cursor: pointer;
+	will-change: opacity;
+
+	img {
+		width: 100%;
+	}
 
 	h1,
 	p {
@@ -32,7 +37,7 @@
 
 		.card__type {
 			position: absolute;
-			bottom: 20px;
+			bottom: 8px;
 		}
 	}
 }

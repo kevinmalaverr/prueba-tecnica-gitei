@@ -16,14 +16,11 @@
 	}
 }
 
-.navbar-toggler {
-	border: none !important;
-}
-
 .nav-item {
 	margin: 0 8px;
 }
 
+// pagina activa
 .nav-item.active {
 	background: var(--color-dark-blue);
 	border-radius: 4px;
@@ -34,6 +31,7 @@
 	}
 }
 
+// barra de busqueda
 .rounded-form {
 	border-radius: 24px;
 	border: var(--border);
@@ -68,6 +66,11 @@
 			height: 26px;
 		}
 	}
+}
+
+// boton abrir y cerrar menu (pantallas pequeñas)
+.navbar-toggler {
+	border: none !important;
 }
 
 .navbar-toggler-icon {
