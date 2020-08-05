@@ -26,10 +26,15 @@ El proyecto se estructuro separando el codigo en components usando sass
 
 **ESTRUCTURA:**
 - components
+
 -- card
+
 -- header
+
 -- footer
+
 -- navbar
+
 -- pagination
 
 
